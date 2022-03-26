@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+
+}
+h1{
+    text-align: center;
+    color: white;
+    
+    
+}
+div{
+    width: 75px;
+    height: 120px;
+}
+#d1{
+    background-color: aqua;
+    margin-left: 814px;
+
+}
+#d2{
+    background-color: blue;
+    margin-bottom: 200px;
+    margin-top: -120px;
+    margin-left: 716px;
+}
+#d3{
+    background-color: brown;
+    margin-bottom: 200px;
+    margin-top: -320px;
+    margin-left: 616px;
+}
+#d4{
+    background-color: chartreuse;
+    margin-bottom: 200px;
+    margin-top:-320px;
+    margin-left: 516px;
+}
+#d5{
+    background-color: cornflowerblue;
+    margin-bottom: 200px;
+    margin-top: -320px;
+    margin-left: 416px;
+}
+#d6{
+    background-color: aqua;
+    margin-bottom: 100px;
+    margin-top: -170px;
+    margin-left: 911px;
+}
+#d7{
+    background-color: cadetblue;
+    margin-bottom: 100px;
+    margin-top: -221px;
+    margin-left: 814px;
+}
+#d8{
+    background-color: cornflowerblue;
+    margin-bottom: 100px;
+    margin-top: -220px;
+    margin-left: 717px;
+}
+#d9{
+    background-color:red;
+    margin-bottom: 100px;
+    margin-top: -220px;
+    margin-left: 621px;
+}
+#d10{
+    background-color: crimson;
+    margin-bottom: 100px;
+    margin-top: -220px;
+    margin-left: 525px;
+}
+#d11{
+    background-color: cyan;
+    margin-bottom: 100px;
+    margin-top: -220px;
+    margin-left: 429px;
+}
+#d12{
+    background-color: darkgoldenrod;
+    margin-bottom: 100px;
+    margin-top: -220px;
+    margin-left: 333px;
+}
+#d13{
+    background-color: crimson;
+    margin-bottom: 100px;
+    margin-top: -73px;
+    margin-left: 1010px;
+}
+#d14{
+    background-color: darkgoldenrod;
+    margin-bottom: 100px;
+    margin-top: -220px;
+    margin-left: 913px;
+}
+#d15{
+    background-color: darkgreen;
+    margin-bottom: 100px;
+    margin-top: -220px;
+    margin-left: 813px;
+}
+#d16{
+    background-color: darkmagenta;
+    margin-bottom: 100px;
+    margin-top: -220px;
+    margin-left: 718px;
+}
+#d17{
+    background-color: darkorange;
+    margin-bottom: 100px;
+    margin-top: -220px;
+    margin-left: 623px;
+}
+#d18{
+    background-color: darkorchid;
+    margin-bottom: 100px;
+    margin-top: -220px;
+    margin-left: 528px;
+}
+#d19{
+    background-color: darkred;
+    margin-bottom: 100px;
+    margin-top: -220px;
+    margin-left: 433px;
+}
+#d20{
+    background-color: darksalmon;
+    margin-bottom: 100px;
+    margin-top: -220px;
+    margin-left: 338px;
+}
+#d21{
+    background-color: darkslateblue;
+    margin-bottom: 100px;
+    margin-top: -220px;
+    margin-left: 243px;
+}

@@ -1,0 +1,12 @@
+div{
+    background-color: aqua;
+    width: 23%;
+    float: left;
+    padding: 10px;
+    /* height: 489px; */
+}
+img{
+    width: 100%;
+    height: 200px;
+    border-radius: 22px;
+}

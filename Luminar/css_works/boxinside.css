@@ -1,0 +1,11 @@
+div{
+    height: 400px;
+    width: 600px;
+    background-color: blueviolet;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding: 100px;
+   /* padding-top: 50px; */
+}
+/* paddinng: spacing of contents inside the box */
+/* paddingleft,right,top,bottom,padding */

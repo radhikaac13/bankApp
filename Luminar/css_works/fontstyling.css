@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+h1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+
+}
+p{
+    font-family: 'Parisienne', cursive;
+    font-size: xx-large;
+}
+/* external fonts can be added by copying the url of that fontfamily in csssection */
+/* and pasting fontfamily code in the tagsection */

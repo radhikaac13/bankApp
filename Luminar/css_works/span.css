@@ -1,0 +1,14 @@
+h1{
+    color: brown;
+}
+span{
+    color: cadetblue;
+
+}
+/* spantag used ti change the color of a portion of text within a tag */
+body{
+    /* backgroundimage adding */
+    background-image: url(./images1/0.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

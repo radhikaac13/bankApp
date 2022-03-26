@@ -1,0 +1,31 @@
+.row{
+    width: 50%;
+    height: 400px;
+    /* background-color: blueviolet; */
+    display: flex;
+    /* justifycontent property is only for horizontal change */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* justify-content: end; */
+    justify-content: start;
+    align-items: center;
+    /* alignitems property is for vertical changes */
+}
+.col{
+    height: 200px;
+    width: 100px;
+    border: solid black 2px;
+}
+.col1{
+    background-color:palevioletred
+}
+.col2{
+    background-color:rgb(216, 174, 112)
+}
+.col3{
+    background-color:rgb(112, 216, 152)
+}
+.col4{
+    background-color:powderblue
+}

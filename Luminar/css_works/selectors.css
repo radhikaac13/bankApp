@@ -1,0 +1,27 @@
+/* tag selector */
+/* 1.tag selector */
+/* 2.id selector */
+/* 3.class selector */
+h1{
+    color: aqua;
+    text-align: center;
+}
+#d1{
+   
+ color: black;
+}
+.c1{
+    color: blueviolet;
+}
+.c2{
+    background-color: brown;
+}
+.c3{
+    background-color: chartreuse;
+}
+div{
+    background-color: greenyellow;
+}
+#d6{
+    background-color: violet;
+}

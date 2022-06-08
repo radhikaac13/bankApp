@@ -54,6 +54,7 @@ export class LoginComponent implements OnInit {
               //1.component directive
               //2.structural directive-->to change dom structure
                //2.1 ngif--syntax--*ngIf="condition"
+               //2.2 ngfor--syntax--*ngfor="let iterator of arrayname"
 
     //database
 //database created as document ie,key value pairs

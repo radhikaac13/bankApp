@@ -4,6 +4,8 @@
   </nav>
 <h1 style="color: wheat;">Welcome {{user}}</h1>
 <a routerLink="/transaction">View Transaction History</a>
+<button class="btn float-right login_btn  margin-left=60px"(click)="logout()" >LOG OUT</button>
+<hr>
   
   
   <div class="container col-md-12 mt-0">
@@ -38,7 +40,7 @@
                                   <div class="input-group-prepend">
                                       <span class="input-group-text"><i class="fas fa-user"></i></span>
                                   </div>
-                                  <input type="text" class="form-control" name="amount" formControlName="amount" placeholder="amount" id="login_accno" required>
+                                  <input type="text" class="form-control" name="amount" formControlName="amount" placeholder="amount" id="login_amount" required>
                                   
                               </div>
                               <div *ngIf="this.depositForm.get('amount')?.touched&&this.depositForm.get('amount')?.errors" style="color: red;">Invalid amount</div>
@@ -88,7 +90,7 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-user"></i></span>
                                 </div>
-                                <input type="text" class="form-control" name="amount" formControlName="amount1" placeholder="amount" id="login_accno1" required>
+                                <input type="text" class="form-control" name="amount" formControlName="amount1" placeholder="amount" id="login_amount1" required>
                                 
                             </div>
                             <div *ngIf="this.withdrawForm.get('amount1')?.touched&&this.withdrawForm.get('amount1')?.errors" style="color: red;">Invalid amount</div>

@@ -1,4 +1,6 @@
+//import { JsonPipe } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../service/data.service';
 
 @Component({
   selector: 'app-transaction',
@@ -6,8 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./transaction.component.css']
 })
 export class TransactionComponent implements OnInit {
+  transaction:any
+  acno=JSON.parse(localStorage.getItem("currentAcno")||'')
 
-  constructor() { }
+  constructor(private ds:DataService) { 
+    this.transaction=this.ds.getTransaction(this.acno)
+    console.log(this.transaction);
+    
+  }
 
   ngOnInit(): void {
   }

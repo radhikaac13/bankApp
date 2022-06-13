@@ -28,33 +28,59 @@ export class LoginComponent implements OnInit {
      //1.1.1 to share data from ts to html-->string interpolation --syntax {{variable}} ie,put 2 {} on variable in html
     // 1.1.2 property binding-->variable declared in ts can be used as an attribute in html--syntax->[attribute]="variable-name"
     //1.2 view to component(html to ts)
-
-    //1.2.1 event binding->binding events that can be happend on that tag--(event)="function-call()"
-    //1.2.2 event binding using $event-(event)="function-call($event)"
-    //"this" is a key used to get the variables declared in class
-    //1.2.3 template referencing variable-->syntax--#variable-name
+     //1.2.1 event binding->binding events that can be happend on that tag--(event)="function-call()"
+     //1.2.2 event binding using $event-(event)="function-call($event)"
+     //"this" is a key used to get the variables declared in class
+     //1.2.3 template referencing variable-->syntax--#variable-name
 //2.two way binding(html to ts and ts to html)
     //2.1 using ngModel--importing formModule in appModule, syntax--[(ngModel)]="variable-name"-this command put in html and the variable name should be declared in ts file
     //2.2 dependency injection--to share data between classes
 
 
-    //angular services--to reuse data
-    //ngSubmit-to submit entire form
+//angular services--to reuse data
+//ngSubmit-to submit entire form
 
-    //angular forms
+//angular forms
     //1.template driven forms-creating html page
     //2.model driven forms--model creating on ts and link with html-example:reactive forms(we can add validation)
-    //library for reactive forms-->ReactiveFormsModule
+      //library for reactive forms-->ReactiveFormsModule
           //to create reactive form
               //1.first import it
               //2.shoukd contain form group-"FormBuilder" dependecy inject,form array,form control
 
 
-              //angular directives--to manipulate dom
-              //1.component directive
-              //2.structural directive-->to change dom structure
-               //2.1 ngif--syntax--*ngIf="condition"
-               //2.2 ngfor--syntax--*ngfor="let iterator of arrayname"
+//angular directives--to manipulate dom
+        //1.component directive
+        //2.structural directive-->to change dom structure
+            //2.1 ngif--syntax--*ngIf="condition"
+           //2.2 ngfor--syntax--*ngfor="let iterator of arrayname"
+        //3.attribute directives--to apply set of style to html
+           //3.1.predefined - eg:ngClass
+           //3.2.userdefined
+
+
+//angular pipes--data format conversion --syntax--expression | pipe operator [pipe arguments]
+
+//animation
+
+
+//parent to child communication--it can be explained by creating a button to delete an account in bank application
+       // for this input decorator is used--@input() [item]="accno"
+//child to parent--output decorator is used
+
+
+//event emitter--to generate userdefined events
+   //emit()--to occur event
+
+
+
+//to create directives--ng g d directivename
+
+//how to share our angular project as link(publish)
+   //ng build --prod  ---dist folder is created--bank folder is there in dist  ---open cmd in bank of dist
+   //npm i http--server
+   //http--server
+
 
     //database
 //database created as document ie,key value pairs

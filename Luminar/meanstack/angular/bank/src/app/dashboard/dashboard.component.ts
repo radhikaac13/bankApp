@@ -32,8 +32,12 @@ export class DashboardComponent implements OnInit {
     amount1:['',[Validators.required,Validators.pattern('[0-9]*')]]
   })
   user:any
+  lDate:any
+  accno=""
   constructor(private ds:DataService,private fb:FormBuilder,private router:Router) {
     this.user=this.ds.CurrentUser
+
+    this.lDate=new Date()  //to view system data
    }
 
   ngOnInit(): void {
@@ -73,6 +77,12 @@ export class DashboardComponent implements OnInit {
 localStorage.removeItem("currentuser")
 localStorage.removeItem("currentAcno")
 this.router.navigateByUrl("")
+ }
+ deleteAccount(){
+this.accno=JSON.parse(localStorage.getItem("currentAcno")||'')
+ }
+ cancel(){
+   this.accno=""
  }
 }
 
